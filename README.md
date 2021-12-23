@@ -1,2 +1,2 @@
-# Photo-Wall
+# Photogram
 React learnings app full
