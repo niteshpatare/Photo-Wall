@@ -1,9 +1,13 @@
 import React from "react";
-
-const Title = ({heading}) =>{
-    return (
-        <h1>{heading}</h1>
-    )
-}
+import { Link } from "react-router-dom";
+const Title = ({ heading }) => {
+  return (
+    <>
+      <h1>
+        <Link to="/">{heading}</Link>
+      </h1>
+    </>
+  );
+};
 
 export default Title;
